@@ -29,3 +29,25 @@ An open-source project that uses a pre-trained multilingual BERT model to classi
 ```bash
 pip install gradio transformers torch
 python app.py
+
+Then open: http://localhost:7860
+
+├── app.py              # Main application code
+├── requirements.txt    # Dependencies for Hugging Face Spaces
+└── README.md           # Project documentation
+
+
+🧠 Credits
+
+Model: nlptown/bert-base-multilingual-uncased-sentiment
+
+Interface: Gradio
+
+📬 Contact
+
+Feel free to connect via LinkedIn
+ or open an issue!
+
+📝 License
+
+This project is under the MIT License.
