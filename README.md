@@ -1,57 +1,74 @@
-# 📊 Sentiment Analyzer in Portuguese
+# 📊 Analisador de Sentimentos em Português
 
-An open-source project that uses a pre-trained multilingual BERT model to classify the sentiment of a text input in Portuguese, returning a score from 1 to 5 stars (like customer reviews).
+> **Versão:** 1.0.0
 
-> ✅ Deployed on Hugging Face Spaces: [Click to try it](https://huggingface.co/spaces/gpsxpc/analisador-sentimento-pt)
+Projeto de código aberto que utiliza um modelo BERT multilingual pré-treinado para classificar o sentimento de um texto em português, retornando uma pontuação de 1 a 5 estrelas (como avaliações de clientes).
+
+> ✅ Disponível no Hugging Face Spaces: [Clique para testar](https://huggingface.co/spaces/gpsxpc/analisador-sentimento-pt)
 
 ---
 
-## 🔧 Technologies
+## 🔧 Tecnologias
 - Python
 - Hugging Face Transformers
 - Gradio
-- Torch (PyTorch backend)
-- Hugging Face Spaces (free deployment)
+- Torch (backend PyTorch)
+- Hugging Face Spaces (hospedagem gratuita)
 
 ---
 
-## 📌 Features
-- Accepts any text input in Portuguese
-- Classifies the sentiment using a multilingual BERT model
-- Outputs probability scores from 1 to 5 stars
-- Runs fully in the browser (Gradio interface)
+## 📌 Funcionalidades
+- Aceita qualquer texto em português como entrada
+- Classifica o sentimento utilizando um modelo BERT multilingual
+- Exibe pontuações de probabilidade de 1 a 5 estrelas
+- Roda completamente no navegador (interface Gradio)
 
 ---
 
+## 📁 Estrutura do Projeto
+
+```
+├── app.py              # Código principal da aplicação
+├── requirements.txt    # Dependências para o Hugging Face Spaces
+└── README.md           # Documentação do projeto
+```
 
 ---
 
-├── app.py              # Main application code
-├── requirements.txt    # Dependencies for Hugging Face Spaces
-└── README.md           # Project documentation
+## 🚀 Como Executar Localmente
 
+### Pré-requisitos
 
-## 🧠 Credits
+Instale as dependências necessárias:
 
-Model: nlptown/bert-base-multilingual-uncased-sentiment
-
-Interface: Gradio
-
-## 📬 Contact
-
-Feel free to connect via LinkedIn [Click](https://www.linkedin.com/in/gabrielxpc/)
- or open an issue!
-
-## 📝 License
-
-This project is under the MIT License.
-
-## 🚀 Getting Started
-
-### Run locally:
 ```bash
 pip install gradio transformers torch
-python app.py
+```
 
-Then open: http://localhost:7860
+### Executando
+
+```bash
+python app.py
+```
+
+Em seguida, acesse: [http://localhost:7860](http://localhost:7860)
+
+---
+
+## 🧠 Créditos
+
+- **Modelo:** [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
+- **Interface:** [Gradio](https://gradio.app/)
+
+---
+
+## 📬 Contato
+
+Fique à vontade para se conectar via [LinkedIn](https://www.linkedin.com/in/gabrielxpc/) ou abrir uma *issue*!
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a Licença MIT.
 
